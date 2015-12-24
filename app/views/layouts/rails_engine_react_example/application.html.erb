@@ -2,13 +2,11 @@
 <html>
 <head>
   <title>RailsEngineReactExample</title>
-  <%= stylesheet_link_tag    "rails_engine_react_example/application", media: "all" %>
-  <%= javascript_include_tag "rails_engine_react_example/application" %>
+  <%= switch_stylesheet_link_tag "rails_engine_react_example/application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
 <%= yield %>
-
+<%= switch_javascript_include_tag "rails_engine_react_example/application" %>
 </body>
 </html>
