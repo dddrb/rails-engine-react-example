@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = RailsEngineReactExample::VERSION
   s.authors     = ["ogom"]
   s.email       = ["ogom@outlook.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsEngineReactExample."
-  s.description = "TODO: Description of RailsEngineReactExample."
+  s.homepage    = "https://github.com/dddrb/rails-engine-react-example"
+  s.summary     = "Summary of RailsEngineReactExample."
+  s.description = "Description of RailsEngineReactExample."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
